@@ -1,0 +1,30 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "libraries": {
+    "openai": "3.50.0",
+    "psycopg": "3.3.8",
+    "pypdf": "6.21.4",
+    "python-dotenv": "1.2.4"
+  },
+  "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7",
+  "table": "public.day6_chunks",
+  "live_counts": [
+    [
+      "A",
+      449,
+      449
+    ],
+    [
+      "B",
+      505,
+      505
+    ],
+    [
+      "C",
+      505,
+      505
+    ]
+  ],
+  "note": "Live counts are a read-only check; no second corpus ingestion was performed."
+}

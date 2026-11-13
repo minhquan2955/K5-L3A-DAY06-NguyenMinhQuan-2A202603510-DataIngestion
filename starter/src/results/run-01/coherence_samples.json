@@ -1,0 +1,302 @@
+[
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 11,
+    "source_position": 822,
+    "chunk_id": "6389c7379461daad69b54ecbea927df3c724f11a9c58b1bd7ed43e50565feaf3",
+    "text": "y\n1.4 The Global Importance of Information Systems\nIntroduction\nWhat comes to mind when you think about information systems? In what ways do you think they affect your\nlife? You might be surprised to find out that information systems have an impact on your life and career\nwhether you realize it or not.\nIn general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 11,
+    "source_position": 822,
+    "chunk_id": "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+    "text": "In general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 11,
+    "source_position": 822,
+    "chunk_id": "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+    "text": "In general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 12,
+    "source_position": 1377,
+    "chunk_id": "b376f61279b3cdf03eccac4122daec3603ff8452f51d47ba70e9a9f4a123b0ab",
+    "text": "escribe the components, elements, and operations of information systems\nIt’s helpful to understand the relationship between information systems and related fields. Computer science\nis the discipline that provides foundations for the theories and technology necessary for computing systems.\nInformation technology (IT) implements and maintains those computer systems. Information systems, our\narea of focus, uses those systems to process and manage information.\nKey Concepts in Information Systems\nAn",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 12,
+    "source_position": 1377,
+    "chunk_id": "f213c9f260144bafee96c5070786c1f4dd86677e5755482b420340bc8b68190e",
+    "text": "• Describe the components, elements, and operations of information systems\nIt’s helpful to understand the relationship between information systems and related fields. Computer science\nis the discipline that provides foundations for the theories and technology necessary for computing systems.\nInformation technology (IT) implements and maintains those computer systems. Information systems, our\narea of focus, uses those systems to process and manage information.\nKey Concepts in Information Systems",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 12,
+    "source_position": 1377,
+    "chunk_id": "f213c9f260144bafee96c5070786c1f4dd86677e5755482b420340bc8b68190e",
+    "text": "• Describe the components, elements, and operations of information systems\nIt’s helpful to understand the relationship between information systems and related fields. Computer science\nis the discipline that provides foundations for the theories and technology necessary for computing systems.\nInformation technology (IT) implements and maintains those computer systems. Information systems, our\narea of focus, uses those systems to process and manage information.\nKey Concepts in Information Systems",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 13,
+    "source_position": 1199,
+    "chunk_id": "6c1484ca564abc1a9bdc613a644e27072084db2c89387668302f0717d99491fd",
+    "text": "ed data. The\nfacts that we use to learn and understand people, places, and things make up information. Information is\nraw data that have been processed and manipulated to give context and meaning. Once data are\nprocessed into information, we can use that information personally and professionally. We read or listen\nto books, watch videos on social media, stream a television show, follow road signs, browse online\nshopping sites, and interact with information we find on the internet or in the world",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 13,
+    "source_position": 1199,
+    "chunk_id": "bc79496ff9a33877014bdae4aaa4f60de468f42e0182feb60abc6768f1b3a35d",
+    "text": "• The raw facts and figures that are processed and turned into meaningful information are called data. The\nfacts that we use to learn and understand people, places, and things make up information. Information is\nraw data that have been processed and manipulated to give context and meaning. Once data are\nprocessed into information, we can use that information personally and professionally. We read or listen\nto books, watch videos on social media, stream a television show, follow road signs,",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 13,
+    "source_position": 1199,
+    "chunk_id": "bc79496ff9a33877014bdae4aaa4f60de468f42e0182feb60abc6768f1b3a35d",
+    "text": "• The raw facts and figures that are processed and turned into meaningful information are called data. The\nfacts that we use to learn and understand people, places, and things make up information. Information is\nraw data that have been processed and manipulated to give context and meaning. Once data are\nprocessed into information, we can use that information personally and professionally. We read or listen\nto books, watch videos on social media, stream a television show, follow road signs,",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 14,
+    "source_position": 1369,
+    "chunk_id": "28c92118f97a9cbf30997da8db99ec6724fb8213324f6b0db1139167730588e7",
+    "text": "re their purposes.\n• An executive information system (EIS) supports the strategic information needs of top executives,\nproviding the information needed to handle executive functions, such as developing an organization’s\nstrategic goals and objectives and plans for achieving them. This includes providing the information\nneeded for managers to understand and manage their organization’s supply chain and value chain, which\ncan be helpful to streamline production processes and provide better customer",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 14,
+    "source_position": 1369,
+    "chunk_id": "84b851055ab6ac202af33ad43cf918a737219dab7e4186523b066d9a467f86fc",
+    "text": "• An executive information system (EIS) supports the strategic information needs of top executives,\nproviding the information needed to handle executive functions, such as developing an organization’s\nstrategic goals and objectives and plans for achieving them. This includes providing the information\nneeded for managers to understand and manage their organization’s supply chain and value chain, which\ncan be helpful to streamline production processes and provide better customer service. Supply",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 14,
+    "source_position": 1369,
+    "chunk_id": "84b851055ab6ac202af33ad43cf918a737219dab7e4186523b066d9a467f86fc",
+    "text": "• An executive information system (EIS) supports the strategic information needs of top executives,\nproviding the information needed to handle executive functions, such as developing an organization’s\nstrategic goals and objectives and plans for achieving them. This includes providing the information\nneeded for managers to understand and manage their organization’s supply chain and value chain, which\ncan be helpful to streamline production processes and provide better customer service. Supply",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 15,
+    "source_position": 1889,
+    "chunk_id": "ce387da0756c44c7bf03b2c5a54c928acc045512d75282e13a50e11660b33e00",
+    "text": "gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of their most popular blend, but also\nhelps them manage costs and operate more efficiently.\nThe POS and ERP systems are not the only information systems in a coffee shop. Most coffee shops have Wi-Fi,\nwhich is another information",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 15,
+    "source_position": 1889,
+    "chunk_id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+    "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 15,
+    "source_position": 1889,
+    "chunk_id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+    "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 16,
+    "source_position": 2156,
+    "chunk_id": "c5c7037ebcb07a87625d639f4a207ba1d8ffd718ed99421dd842ae893a30da39",
+    "text": "volution as cell phones progressed to eventually\nbecome a vital personal resource for individuals around the world. By January 2024, Pew Research Center\nfound that 97 percent of adults in the U.S. owned a cell phone.2\nAs this information shows, communication has been paramount for humans since the beginning of civilization,\nand we have strived to find more and better ways to stay connected with one another .\nDevelopment of the Internet\nThe inventions of the computer and the internet have been in",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 16,
+    "source_position": 2156,
+    "chunk_id": "0517a5f45307738ccdafd84c588fb40701b7034eb71afb9048b22b9ce9e91b14",
+    "text": "have strived to find more and better ways to stay connected with one another .\nDevelopment of the Internet",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 16,
+    "source_position": 2156,
+    "chunk_id": "0517a5f45307738ccdafd84c588fb40701b7034eb71afb9048b22b9ce9e91b14",
+    "text": "have strived to find more and better ways to stay connected with one another .\nDevelopment of the Internet",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 17,
+    "source_position": 897,
+    "chunk_id": "99f230cdd1a9d5e732d84d415743be0fe4f9597dc3b581fb727db572b93c710c",
+    "text": "nodes (connectors) and lines that\nstretched across the continental United States. (credit: modification of work “Arpanet 1974” by “Yngvar”/Wikimedia Commons, Public\nDomain)\nDuring the 1970s, scientists Vinton Cerf and Robert Kahn developed the communications model for\nTransmission Control Protocol/Internet Protocol (TCP/IP). This established the standards for transmitting data\namong multiple networks of computers. In 1983, ARPANET adopted TCP/IP , providing the framework for\nresearchers to creat",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 17,
+    "source_position": 897,
+    "chunk_id": "8080da5f7ea0b6e38ec4107f9a194df34fb4aacc9a15ee9fba3b2baf95e60859",
+    "text": "During the 1970s, scientists Vinton Cerf and Robert Kahn developed the communications model for\nTransmission Control Protocol/Internet Protocol (TCP/IP). This established the standards for transmitting data\namong multiple networks of computers. In 1983, ARPANET adopted TCP/IP , providing the framework for\nresearchers to create the vast network that evolved into today’s internet.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 17,
+    "source_position": 897,
+    "chunk_id": "8080da5f7ea0b6e38ec4107f9a194df34fb4aacc9a15ee9fba3b2baf95e60859",
+    "text": "During the 1970s, scientists Vinton Cerf and Robert Kahn developed the communications model for\nTransmission Control Protocol/Internet Protocol (TCP/IP). This established the standards for transmitting data\namong multiple networks of computers. In 1983, ARPANET adopted TCP/IP , providing the framework for\nresearchers to create the vast network that evolved into today’s internet.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 18,
+    "source_position": 1473,
+    "chunk_id": "bfdc54c8f54eacd559ad61ae4544ef61b020b6d0793dee0660359420762902ee",
+    "text": "loom helped early computer designers\nunderstand the concepts and importance of computer hardware and software by applying binary code.\nFigure 1.5 (a) Jacquard’s loom, which performed calculations using a punch card system, was an early development in computing, as\nwas (b) Herman Hollerith’s punch-card tabulating machine, for which he was awarded a patent in 1889. (c) Each hole in a punch card\nequals a piece of data (called a “bit” today) that the machines read. (credit a: modification of work “",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 18,
+    "source_position": 1473,
+    "chunk_id": "9c65a5cd8a7951c94321d5d3d270d2828d52338531546474a9dd6ee7d3d3af2f",
+    "text": "rods in the steps needed to\nweave a specific pattern of cloth (Figure 1.5). The design of the loom helped early computer designers\nunderstand the concepts and importance of computer hardware and software by applying binary code.\nFigure 1.5 (a) Jacquard’s loom, which performed calculations using a punch card system, was an early development in computing, as\nwas (b) Herman Hollerith’s punch-card tabulating machine, for which he was awarded a patent in 1889. (c) Each hole in a punch card\nequals a",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 18,
+    "source_position": 1473,
+    "chunk_id": "9c65a5cd8a7951c94321d5d3d270d2828d52338531546474a9dd6ee7d3d3af2f",
+    "text": "rods in the steps needed to\nweave a specific pattern of cloth (Figure 1.5). The design of the loom helped early computer designers\nunderstand the concepts and importance of computer hardware and software by applying binary code.\nFigure 1.5 (a) Jacquard’s loom, which performed calculations using a punch card system, was an early development in computing, as\nwas (b) Herman Hollerith’s punch-card tabulating machine, for which he was awarded a patent in 1889. (c) Each hole in a punch card\nequals a",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 19,
+    "source_position": 2002,
+    "chunk_id": "7fd8b80f41a36960fdc3d227094191cef1f57090971f806e432318c8b37132cd",
+    "text": "files could be uploaded\nand shared, and by the late 1990s, it was possible to post and share music and videos online. These\ntechnological advancements were important to support the evolution of information systems, giving users\nmore options for communication and information sharing.\nWeb 2.0 and Social Media Platforms\nThe initial version of the internet is known as Web 1.0, and it featured websites that were static, which means\nthat users could read website content but could not interact with it.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 19,
+    "source_position": 2002,
+    "chunk_id": "35d62d80dbbe96789a247055b81c093827f0bda11f1f13bc246d033db80f295e",
+    "text": "information systems, giving users\nmore options for communication and information sharing.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 19,
+    "source_position": 2002,
+    "chunk_id": "35d62d80dbbe96789a247055b81c093827f0bda11f1f13bc246d033db80f295e",
+    "text": "information systems, giving users\nmore options for communication and information sharing.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 20,
+    "source_position": 2120,
+    "chunk_id": "7820fd816f59e5607e22125e6c3b1a56f6b321eecf0e8f501913c1a2593076a7",
+    "text": "systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems\nThe components of information systems all interact closely to make the system function. People are a vital part\nof information systems, both as developers and as system users. An important aspect of systems development\nis ensuring that a system is user-friendly. To maximize functionality and promote information sharing, systems\nmust be accessible to individuals without a bac",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 20,
+    "source_position": 2120,
+    "chunk_id": "3367f37b7ab3b3a5ead564dda0b63b9e6882f0082d712c870151cb8a65081730",
+    "text": "The components of information systems all interact closely to make the system function. People are a vital part\nof information systems, both as developers and as system users. An important aspect of systems development\nis ensuring that a system is user-friendly. To maximize functionality and promote information sharing, systems\nmust be accessible to individuals without a background in technology.",
+    "score": null,
+    "reason": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "openstax-foundations-is-ch1-2",
+    "page": 20,
+    "source_position": 2120,
+    "chunk_id": "3367f37b7ab3b3a5ead564dda0b63b9e6882f0082d712c870151cb8a65081730",
+    "text": "The components of information systems all interact closely to make the system function. People are a vital part\nof information systems, both as developers and as system users. An important aspect of systems development\nis ensuring that a system is user-friendly. To maximize functionality and promote information sharing, systems\nmust be accessible to individuals without a background in technology.",
+    "score": null,
+    "reason": ""
+  }
+]

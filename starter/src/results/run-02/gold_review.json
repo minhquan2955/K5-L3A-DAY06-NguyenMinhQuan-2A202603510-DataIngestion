@@ -1,0 +1,305 @@
+{
+  "assessor": "Nguyễn Minh Quân (Codex hỗ trợ điền nhãn và kiểm tra nguồn)",
+  "reviewed_at": "2026-11-13T16:20:36.360912+00:00",
+  "review_method": "Assistant content review, checked against normalized local PDF and frozen trace; not independently human graded.",
+  "status": "verified_by_assistant",
+  "student_review_status": "not_independently_confirmed",
+  "frozen_inputs": {
+    "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+    "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+    "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+  },
+  "questions_checked": 20,
+  "evidence_passages_checked": 21,
+  "items": [
+    {
+      "question_id": "q01",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 12,
+          "evidence_found": true,
+          "canonical_start": 2308,
+          "canonical_length": 114
+        },
+        {
+          "page": 13,
+          "evidence_found": true,
+          "canonical_start": 11,
+          "canonical_length": 102
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q02",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 15,
+          "evidence_found": true,
+          "canonical_start": 71,
+          "canonical_length": 108
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q03",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 15,
+          "evidence_found": true,
+          "canonical_start": 396,
+          "canonical_length": 233
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q04",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 22,
+          "evidence_found": true,
+          "canonical_start": 956,
+          "canonical_length": 69
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q05",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 24,
+          "evidence_found": true,
+          "canonical_start": 1639,
+          "canonical_length": 105
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q06",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 25,
+          "evidence_found": true,
+          "canonical_start": 1318,
+          "canonical_length": 81
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q07",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 25,
+          "evidence_found": true,
+          "canonical_start": 2773,
+          "canonical_length": 166
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q08",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 27,
+          "evidence_found": true,
+          "canonical_start": 2076,
+          "canonical_length": 240
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q09",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 47,
+          "evidence_found": true,
+          "canonical_start": 363,
+          "canonical_length": 123
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q10",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 50,
+          "evidence_found": true,
+          "canonical_start": 703,
+          "canonical_length": 141
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q11",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 51,
+          "evidence_found": true,
+          "canonical_start": 178,
+          "canonical_length": 147
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q12",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 51,
+          "evidence_found": true,
+          "canonical_start": 2374,
+          "canonical_length": 296
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q13",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 53,
+          "evidence_found": true,
+          "canonical_start": 384,
+          "canonical_length": 189
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q14",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 53,
+          "evidence_found": true,
+          "canonical_start": 2799,
+          "canonical_length": 233
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q15",
+      "split": "dev",
+      "evidence_checks": [
+        {
+          "page": 60,
+          "evidence_found": true,
+          "canonical_start": 1275,
+          "canonical_length": 142
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q16",
+      "split": "test",
+      "evidence_checks": [
+        {
+          "page": 31,
+          "evidence_found": true,
+          "canonical_start": 122,
+          "canonical_length": 119
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q17",
+      "split": "test",
+      "evidence_checks": [
+        {
+          "page": 35,
+          "evidence_found": true,
+          "canonical_start": 2656,
+          "canonical_length": 160
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q18",
+      "split": "test",
+      "evidence_checks": [
+        {
+          "page": 62,
+          "evidence_found": true,
+          "canonical_start": 3646,
+          "canonical_length": 131
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q19",
+      "split": "test",
+      "evidence_checks": [
+        {
+          "page": 70,
+          "evidence_found": true,
+          "canonical_start": 925,
+          "canonical_length": 195
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    },
+    {
+      "question_id": "q20",
+      "split": "test",
+      "evidence_checks": [
+        {
+          "page": 75,
+          "evidence_found": true,
+          "canonical_start": 1769,
+          "canonical_length": 265
+        }
+      ],
+      "expected_answer_supported": true,
+      "reason": "Assistant reviewed expected answer against the evidence quote; exact quote verified on included physical PDF page."
+    }
+  ],
+  "student_name": "Nguyễn Minh Quân",
+  "audit_owner": "Nguyễn Minh Quân",
+  "label_generated_by": "Codex (AI assistant)"
+}

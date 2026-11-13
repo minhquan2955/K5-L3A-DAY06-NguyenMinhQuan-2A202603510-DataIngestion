@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes,chunk_count,ingest_seconds,document_embedding_tokens,estimated_cost_usd,run_path
+A,fixed window,500,50,document_id/source/page/chapter/language/printed_page,none,OpenAI text-embedding-3-small / 1536,Baseline windows with overlap,3/15,8/15,1/5,1/5,Hypothesis descriptions documented after run; not claimed preregistered. Same frozen inputs. ,449,11.323144399997545,40086,0.024,starter/src/results/run-02
+B,paragraph/heading heuristic,500,0,document_id/source/page/chapter/language/printed_page,none,OpenAI text-embedding-3-small / 1536,Structural blocks may preserve evidence better,3/15,11/15,0/5,1/5,Hypothesis descriptions documented after run; not claimed preregistered. Same frozen inputs. ,505,10.505625400001009,35893,0.0216,starter/src/results/run-02
+C,paragraph/heading heuristic,500,0,document_id/source/page/chapter/language/printed_page,question-supplied chapter,OpenAI text-embedding-3-small / 1536,Chapter filter may improve scope compliance,3/15,11/15,0/5,1/5,Hypothesis descriptions documented after run; not claimed preregistered. Same frozen inputs. Reuses B vectors; filter only difference. Cost 0 USD covers incremental document embedding only (B vectors reused); query embedding cost not measured separately.,505,0.9718487999998615,0,0,starter/src/results/run-02

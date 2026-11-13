@@ -1,0 +1,25 @@
+{
+  "config": {
+    "inputs": {
+      "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+      "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+      "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+    },
+    "model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "fixed_size": 500,
+    "overlap": 50,
+    "paragraph_size": 500,
+    "metric": "cosine",
+    "search": "exact",
+    "top_k": 3,
+    "chunk_snapshots": {
+      "A": "90da23ca964720161057062ad8ee6575f6d50a002b3b997c1eef09cfca4a4806",
+      "B": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb",
+      "C": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb"
+    }
+  },
+  "selected_strategy": "B",
+  "selected_at": "2026-11-13T11:56:22.419263+00:00",
+  "rule": "dev Evidence Hit@3, then Hit@1, then fewer chunks; alphabetical tie-break"
+}

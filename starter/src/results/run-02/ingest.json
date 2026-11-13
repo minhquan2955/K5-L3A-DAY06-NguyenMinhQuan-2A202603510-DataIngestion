@@ -1,0 +1,47 @@
+{
+  "config": {
+    "inputs": {
+      "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+      "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+      "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+    },
+    "model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "fixed_size": 500,
+    "overlap": 50,
+    "paragraph_size": 500,
+    "metric": "cosine",
+    "search": "exact",
+    "top_k": 3,
+    "chunk_snapshots": {
+      "A": "90da23ca964720161057062ad8ee6575f6d50a002b3b997c1eef09cfca4a4806",
+      "B": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb",
+      "C": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb"
+    }
+  },
+  "created_at": "2026-11-13T11:55:36.122362+00:00",
+  "strategies": {
+    "A": {
+      "stored_chunks": 449,
+      "seconds": 11.323144399997545,
+      "embedding_tokens": 40086,
+      "estimated_cost_usd": null,
+      "embedding_reused_from": null
+    },
+    "B": {
+      "stored_chunks": 505,
+      "seconds": 10.505625400001009,
+      "embedding_tokens": 35893,
+      "estimated_cost_usd": null,
+      "embedding_reused_from": null
+    },
+    "C": {
+      "stored_chunks": 505,
+      "seconds": 0.9718487999998615,
+      "embedding_tokens": 0,
+      "estimated_cost_usd": null,
+      "embedding_reused_from": "B"
+    }
+  },
+  "cost_note": "Cost is an estimate only when a provider rate was supplied; otherwise consult provider usage."
+}

@@ -1,0 +1,49 @@
+{
+  "by_strategy_split": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "n_questions": 15,
+      "hit_at_1": {
+        "hits": 3,
+        "total": 15,
+        "rate": 0.2
+      },
+      "hit_at_3": {
+        "hits": 8,
+        "total": 15,
+        "rate": 0.5333333333333333
+      }
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "n_questions": 15,
+      "hit_at_1": {
+        "hits": 3,
+        "total": 15,
+        "rate": 0.2
+      },
+      "hit_at_3": {
+        "hits": 11,
+        "total": 15,
+        "rate": 0.7333333333333333
+      }
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "n_questions": 15,
+      "hit_at_1": {
+        "hits": 3,
+        "total": 15,
+        "rate": 0.2
+      },
+      "hit_at_3": {
+        "hits": 11,
+        "total": 15,
+        "rate": 0.7333333333333333
+      }
+    }
+  ]
+}

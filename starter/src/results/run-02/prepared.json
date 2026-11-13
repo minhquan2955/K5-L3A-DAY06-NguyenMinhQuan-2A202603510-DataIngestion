@@ -1,0 +1,56 @@
+{
+  "content_pages": 58,
+  "strategies": {
+    "A": {
+      "chunks": 449,
+      "total_chars": 210481,
+      "min_chars": 53,
+      "max_chars": 500,
+      "mean_chars": 468.7772828507795,
+      "median_chars": 500
+    },
+    "B": {
+      "chunks": 505,
+      "total_chars": 190598,
+      "min_chars": 9,
+      "max_chars": 500,
+      "mean_chars": 377.4217821782178,
+      "median_chars": 432
+    },
+    "C": {
+      "chunks": 505,
+      "total_chars": 190598,
+      "min_chars": 9,
+      "max_chars": 500,
+      "mean_chars": 377.4217821782178,
+      "median_chars": 432
+    }
+  },
+  "extraction_issues": [
+    {
+      "page": 44,
+      "extraction_status": "empty",
+      "normalized_char_count": 0
+    }
+  ],
+  "config": {
+    "inputs": {
+      "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+      "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+      "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+    },
+    "model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "fixed_size": 500,
+    "overlap": 50,
+    "paragraph_size": 500,
+    "metric": "cosine",
+    "search": "exact",
+    "top_k": 3,
+    "chunk_snapshots": {
+      "A": "90da23ca964720161057062ad8ee6575f6d50a002b3b997c1eef09cfca4a4806",
+      "B": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb",
+      "C": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb"
+    }
+  }
+}

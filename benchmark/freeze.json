@@ -1,0 +1,83 @@
+{
+    "schema_version":  1,
+    "benchmark_version":  "1.0",
+    "frozen_at":  "2026-11-13T10:47:09+00:00",
+    "hash_algorithm":  "SHA-256 over exact file bytes",
+    "files":  {
+                  "chapter1-2.pdf":  "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+                  "benchmark/questions.json":  "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+                  "data/manifest.json":  "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+              },
+    "source_id":  "openstax-foundations-is-ch1-2",
+    "included_content_pages":  58,
+    "included_normalized_chars":  191045,
+    "splits":  {
+                   "dev":  [
+                               "q01",
+                               "q02",
+                               "q03",
+                               "q04",
+                               "q05",
+                               "q06",
+                               "q07",
+                               "q08",
+                               "q09",
+                               "q10",
+                               "q11",
+                               "q12",
+                               "q13",
+                               "q14",
+                               "q15"
+                           ],
+                   "test":  [
+                                "q16",
+                                "q17",
+                                "q18",
+                                "q19",
+                                "q20"
+                            ]
+               },
+    "filter_question_ids":  [
+                                "q02",
+                                "q06",
+                                "q09",
+                                "q12",
+                                "q16",
+                                "q18",
+                                "q20"
+                            ],
+    "validation":  {
+                       "questions_checked":  20,
+                       "primary_evidence_matches":  20,
+                       "alternative_evidence_matches":  1,
+                       "evidence_in_included_pages":  true,
+                       "filter_values_match_explicit_question_scope_and_page_chapter":  true,
+                       "unique_question_ids":  true,
+                       "disjoint_dev_test_ids":  true,
+                       "method":  "Assistant inspected source passages; exact substring and character offsets checked against font-aware normalized local PDF pages.",
+                       "student_review_status":  "pending"
+                   },
+    "retrieval_run_before_freeze":  false,
+    "dev_selection_rule":  [
+                               "Evidence Hit@3 descending",
+                               "Hit@1 descending",
+                               "chunk count ascending"
+                           ],
+    "results":  null,
+    "path_updates":  [
+                         {
+                             "from":  "data/manifest.chapter1-2",
+                             "to":  "data/manifest.json",
+                             "content_unchanged":  true,
+                             "updated_at":  "2026-11-13T11:08:56+00:00"
+                         }
+                     ],
+    "metadata_updates":  [
+                             {
+                                 "file":  "data/manifest.json",
+                                 "content_sha256":  "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed",
+                                 "reason":  "Recorded the user-supplied noncommercial educational-use basis and OpenAI API training/retention terms.",
+                                 "updated_at":  "2026-11-13T11:54:12.3311020Z"
+                             }
+                         ]
+}
