@@ -9,4 +9,4 @@
 - Báo cáo: [bản cá nhân](report/individual/2A202603510_NguyenMinhQuan.md).
 - Kết quả: [run-02](starter/src/results/run-02/); retrieval đã chạy đủ 15 dev/5 test × A/B/
 - Repo bài nộp: https://github.com/minhquan2955/K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion
-- Commit chốt bài: [f51264958be2d58089a3ce710d267210d8689eea](https://github.com/minhquan2955/K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion/commit/f51264958be2d58089a3ce710d267210d8689eea)
+- Commit chốt bài: https://github.com/minhquan2955/K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion/commit/392bbe5d750d0a2b5d835d9234f47ec52b0cc565
