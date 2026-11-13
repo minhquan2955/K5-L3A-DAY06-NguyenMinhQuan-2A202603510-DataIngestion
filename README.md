@@ -1,44 +1,47 @@
-# Day 06 — Data Ingestion · Nguyễn Minh Quân
+# Day 06 · Data Ingestion Engineering
 
-MSSV **2A202603510**, lớp **L3A**. Pipeline Python/PDF → chunks → OpenAI embeddings → PostgreSQL/pgvector → benchmark 20 câu. Báo cáo: [REPORT.md](REPORT.md), [bản cá nhân](report/individual/2A202603510_NguyenMinhQuan.md); [nhật ký](artifacts/experiment_log.csv).
+**Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
-## Kết quả đã chạy
+Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.
 
-Run [run-02](starter/src/results/run-02/) ngày 13/11/2026, text-embedding-3-small/1536 chiều, cosine exact top-3. 58 trang nội dung; A449/B505/C505 chunk. Dev Hit@3: A8/15, B11/15, C11/15. Test Hit@3: cả ba 1/5. Chọn B theo dev; không tinh chỉnh theo test. Audit hỗ trợ AI có lý do trong [audit.assistant.json](starter/src/results/run-02/audit.assistant.json), đã được đối chiếu nguồn và điền vào file audit; biên bản tại `audit_review.json` và `gold_review.json`. Chưa có review độc lập của học viên.
+| 📄 Dữ liệu | 🧩 Chiến lược | 🎯 Benchmark |
+|---|---|---|
+| Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
 
-## Setup trên Windows PowerShell
+## Bắt đầu nhanh
 
-Từ thư mục gốc repo, cần Python 3.11–3.14 và Docker Desktop đang chạy:
+Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
 
-```powershell
-cd starter
-python -m venv src/.venv
-.\src\.venv\Scripts\python.exe -m pip install -r requirements.txt
-if (-not (Test-Path .env)) { Copy-Item .env.example .env }
-docker compose -p day6_student_starter up -d --wait
-.\src\.venv\Scripts\python.exe scripts/check_setup.py
-```
+## 1. Xây pipeline
 
-Điền `OPENAI_API_KEY`, `EMBEDDING_MODEL=text-embedding-3-small` và DATABASE_URL theo `.env.example`; giữ key trong `.env`. Database local port55433, volume Docker lưu bền vững; không xóa volume khi muốn giữ index. Thư viện/model/database đo thực tế ở [environment.json](starter/src/results/run-02/environment.json).
+![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
 
-## Dữ liệu và chạy lại
+Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
 
-[chapter1-2.pdf](chapter1-2.pdf) là snapshot PDF 83 trang; [manifest](data/manifest.json) ghi nguồn, quyền, page IDs, 58 trang được tính và SHA256. Nguồn gốc: https://openstax.org/books/foundations-information-systems/pages/1-introduction . Giữ attribution và CC BY-NC-SA 4.0. Nếu thiếu PDF, lấy đúng snapshot theo manifest; bản sách mới có thể khác hash, không sửa hash/gold để giả làm cùng thí nghiệm. Căn cứ giáo dục phi thương mại cho API embedding được ghi trong manifest; xem phạm vi và giới hạn tại REPORT.md.
+## 2. So sánh và đánh giá
 
-[questions.json](benchmark/questions.json) có 15 dev/5 test, 7 câu filter. [freeze.json](benchmark/freeze.json) khóa hash và split; run xác minh trước mỗi lần chạy. Không đưa gold vào query/filter. Từ `starter/` dùng một thư mục output mới cho mỗi cấu hình:
+![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)
 
-```powershell
-.\src\.venv\Scripts\python.exe -m src.run --mode prepare --output src/results/reproduce-01
-.\src\.venv\Scripts\python.exe -m src.run --mode ingest --output src/results/reproduce-01
-.\src\.venv\Scripts\python.exe -m src.run --mode eval --split dev --output src/results/reproduce-01
-.\src\.venv\Scripts\python.exe -m src.run --mode eval --split test --output src/results/reproduce-01
-```
+Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
 
-Ingest/eval gọi API có tính phí. Dùng thư mục output mới để giữ kết quả cũ. Cost CSV: A 0,0240/B 0,0216/C 0 USD; tổng ghi nhận 0,0456 USD, A/B cần đối soát nguồn và đơn giá. C tái dùng vector B nên có 0 document token mới và 0 USD document embedding tăng thêm; chi phí query embedding chưa đo riêng. Tổng document token run-02 là 75.979. Xem REPORT.md về phạm vi chi phí và README pipeline về cách chạy/kiểm tra code.
+Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
 
-## Bằng chứng và phần cần hoàn tất
+## 3. Chuẩn bị bài nộp
 
-- [summary dev](starter/src/results/run-02/summary.dev.json), [summary test](starter/src/results/run-02/summary.test.json), [selection](starter/src/results/run-02/selection.dev.json).
-- [trace dev](starter/src/results/run-02/traces.dev.jsonl), [trace test](starter/src/results/run-02/traces.test.jsonl), [ingest](starter/src/results/run-02/ingest.json).
-- [checklist bài nộp](artifacts/submission_check.md): audit/gold đã được Codex kiểm tra và điền; còn review độc lập của học viên, đối soát chi phí API, commit/push và nộp link. Không ghi audit Codex thành nhãn chấm tay của học viên.
-- Code đã hiện thực tại [starter/src](starter/src/); hướng dẫn chi tiết [README pipeline](starter/src/README.md). Quy tắc: [GUIDE](GUIDE.md), [BENCHMARK](BENCHMARK.md), [RUBRIC](RUBRIC.md), [SUBMISSION](SUBMISSION.md), [RULES](RULES.md).
+1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
+2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
+3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
+
+## Tài liệu hướng dẫn
+
+| Bạn cần tìm | Tài liệu |
+|---|---|
+| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
+| Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
+| Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
+| Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
+| Tiêu chí chấm điểm | [RUBRIC.md](RUBRIC.md) |
+| Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
+| Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
+
+[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
